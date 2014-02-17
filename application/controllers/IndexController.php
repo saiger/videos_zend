@@ -11,7 +11,7 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-        echo "ß â IndexController,  I am in indexAction!!!";
+        echo "Ð¯ Ð² IndexController,  I am in indexAction!!!";
     }
 
     public function addAction()

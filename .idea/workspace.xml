@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fff48ea-0b30-4f40-acbf-891955fe681c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.zfproject.xml" afterPath="$PROJECT_DIR$/.zfproject.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/IndexController.php" afterPath="$PROJECT_DIR$/application/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/configs/application.ini" afterPath="$PROJECT_DIR$/application/configs/application.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zfdemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.ini" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/configs/application.ini">
+      <file leaf-file-name="IndexController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="38" selection-start="636" selection-end="636" vertical-scroll-proportion="0.543771" vertical-offset="0" max-vertical-offset="594">
+            <state line="15" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.44894367" vertical-offset="0" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
@@ -53,8 +49,8 @@
       <list>
         <option value="$PROJECT_DIR$/public/index2.php" />
         <option value="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
-        <option value="$PROJECT_DIR$/application/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/application/configs/application.ini" />
+        <option value="$PROJECT_DIR$/application/controllers/IndexController.php" />
       </list>
     </option>
   </component>
@@ -411,16 +407,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
+    <entry file="file://$PROJECT_DIR$/application/configs/application.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+        <state line="26" column="0" selection-start="829" selection-end="829" vertical-scroll-proportion="0.7441077" vertical-offset="0" max-vertical-offset="594">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/configs/application.ini">
+    <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="38" selection-start="636" selection-end="636" vertical-scroll-proportion="0.543771" vertical-offset="0" max-vertical-offset="594">
+        <state line="15" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.44894367" vertical-offset="0" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
