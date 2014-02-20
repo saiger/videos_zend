@@ -1,1 +1,3 @@
 .idea/
+.zfproject.xml
+tests/MyTestClass*

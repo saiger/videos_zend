@@ -11,8 +11,12 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-        //$this->$view->title = "Index test title";
-        echo "I am in IndexController,  I am in indexAction!!!";
+        // Создаём объект нашей модели
+        $movies = new Application_Model_DbTable_Movies();
+
+        // Применяем метод fetchAll для выборки всех записей из таблицы,
+        // и передаём их в view, через следующую запись
+        $this->view->movies = $movies->fetchAll();
     }
 
     public function addAction()
