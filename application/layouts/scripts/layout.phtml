@@ -30,6 +30,9 @@
 <div id="content">
     <h1>
         <?php
+            //Выводим ссылку на главную страницу для удобного перехода с любой страницы
+            echo '<a href=\''.$this->url(array('controller' => 'index', 'action'=>'index')).'\'>На главную</a></br>';
+
             // Выводим заголовок страницы, который будем формировать в каждом view
             echo $this->escape($this->title);
         ?>
