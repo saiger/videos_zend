@@ -24,8 +24,36 @@ class Application_Model_DbTable_Movies extends Zend_Db_Table_Abstract
 
     }
 
+    // Метод для добавление новой записи
+    public function addMovie($director, $title){
+        // Формируем массив вставляемых значений
+        $data = array(
+            'director' => $director,
+            'title' => $title,
+        );
 
+        // Используем метод insert для вставки записи в базу
+        $this->insert($data);
+    }
 
+    // Метод для обновления записи
+    public  function updateMovie($id, $director, $title){
+        // Формируем массив значений
+        $data = array(
+            'director' => $director,
+            'title' => $title,
+        );
+
+        // Используем метод update для обновления записи
+        // В скобках указываем условие обновления (используя where)
+        $this->update($data, 'id = ' . (int)$id);
+    }
+
+    // Метод для удаления записи
+    public function deleteMovie($id){
+    // В скобках указываем условие удаления (используя where)
+$this->delete('id = ' . (int)$id);
+}
 
 }
 

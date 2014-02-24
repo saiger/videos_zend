@@ -15,8 +15,9 @@ class IndexController extends Zend_Controller_Action
         $movies = new Application_Model_DbTable_Movies();
 
         // Применяем метод fetchAll для выборки всех записей из таблицы,
-        // и передаём их в view, через следующую запись
+        // и передаём их в view
         $this->view->movies = $movies->fetchAll();
+
     }
 
     public function addAction()

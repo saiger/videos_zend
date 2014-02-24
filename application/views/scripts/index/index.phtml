@@ -1,9 +1,6 @@
 <h1>Video Site on Zend</h1>
 
-<?php
-    print_r($this->url(array('controller'=>'index','action'=>'add')));
-?>
-
+<?php if ($this->movies): ?>
 <table id="films">
     <thead>
         <tr>
@@ -16,9 +13,16 @@
     <?php
     foreach($this->movies as $movie)
     {
-        echo '<tr><td>'.$movie->title.'</td>';
-        echo '<td>'.$movie->director.'</td><tr>';
+        echo '<tr><td>'.$this->escape($movie->title).'</td>';
+        echo '<td>'.$this->escape($movie->director).'</td>';
+        echo '<td><a href='.$this->url(array('controller'=>'index', 'action'=>'edit', 'id'=>$movie->id)).'>Edit</a></td>';
+        echo '<td><a href='.$this->url(array('controller'=>'index', 'action'=>'delete', 'id'=>$movie->id)).'>Delete</a></td></tr>';
     }
     ?>
 
 </table>
+
+<?php else: ?>
+<p>No Films in Database</p>
+
+<?php endif;?>
