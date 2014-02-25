@@ -35,7 +35,7 @@ class Application_Form_Movie extends Zend_Form
                 array('messages' => array('isEmpty' => $isEmptyMessage))
             );
 
-        // Создаём второй текстовой элемент формы и проделываем те же операции
+        // Создаём второй текстовый элемент формы и проделываем те же операции
         $title = new Zend_Form_Element_Text('title');
 
         $title->setLabel('Title')
@@ -49,7 +49,7 @@ class Application_Form_Movie extends Zend_Form
         // Создаём элемент формы Submit c именем = submit
         $submit = new Zend_Form_Element_Submit('submit');
 
-        // Создаём атрибут id = submitbutton
+        // Задаем атрибут id = submitbutton
         $submit->setAttrib('id', 'submitbutton');
 
         // Добавляем все созданные элементы к форме.
